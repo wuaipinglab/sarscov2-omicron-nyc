@@ -1,0 +1,13 @@
+{
+  "title": "Introduction",
+  "colorings": [
+    {
+      "key": "local",
+      "title": "Source: New York City",
+      "type": "boolean"
+    }
+  ],
+  "display_defaults": {
+    "color_by": "local"
+  }
+}

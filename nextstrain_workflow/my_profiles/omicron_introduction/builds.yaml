@@ -1,0 +1,18 @@
+inputs:
+  - name: "local"
+    metadata: "data/nyc_clades_metadata.tsv"
+    sequences: "data/nyc_clades_sequences.fasta"
+  - name: "context"
+    metadata: "data/context_metadata.tsv"
+    sequences: "data/context_sequences.fasta"
+  - name: "ref"
+    metadata: "data/references_metadata.tsv"
+    sequences: "data/references_sequences.fasta"
+
+builds:
+  OmicronIntroduction:
+    title: "Early Introduction of Omicron in New York City"
+
+files:
+    auspice_config: "my_profiles/omicron_introduction/my_auspice_config.json"
+    description: "my_profiles/omicron_introduction/my_description.md"

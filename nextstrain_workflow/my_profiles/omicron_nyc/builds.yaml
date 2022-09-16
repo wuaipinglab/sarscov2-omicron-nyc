@@ -1,0 +1,15 @@
+inputs:
+  - name: "nyc"
+    metadata: "data/nyc_metadata.tsv"
+    sequences: "data/nyc_sequences.fasta"
+  - name: "ref"
+    metadata: "data/references_metadata.tsv"
+    sequences: "data/references_sequences.fasta"
+
+builds:
+  OmicronNYC:
+    title: "392 Early Omicron Viruses in New York City"
+
+files:
+    auspice_config: "my_profiles/omicron_nyc/my_auspice_config.json"
+    description: "my_profiles/omicron_nyc/my_description.md"

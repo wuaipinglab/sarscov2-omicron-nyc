@@ -1,0 +1,13 @@
+{
+  "title": "NYC",
+  "colorings": [
+    {
+      "key": "nyc",
+      "title": "Source: New York City",
+      "type": "boolean"
+    }
+  ],
+  "display_defaults": {
+    "color_by": "nyc"
+  }
+}
